@@ -3,7 +3,7 @@ datasources:
   - name: Postgres
     type: postgres
     access: proxy
-    url: postgres:5432
+    url: postgres:5433
     user: grafana_ro
     database: labdb
     jsonData:
